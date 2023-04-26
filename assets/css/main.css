@@ -3247,8 +3247,8 @@ input, select, textarea {
 
 				}
 
-			}
-				.wrapper > .inner > .iframe {
+			} 
+				.wrapper > .inner  iframe {
 					width: 850px;
 					height: 380px;
 				}
