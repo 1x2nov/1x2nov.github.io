@@ -3243,7 +3243,7 @@ input, select, textarea {
 			
 			@media screen and (min-width: 1024px) {
 
-				.wrapper > .inner > .iframe{
+				.wrapper > .inner > {
 					width: 100%;
 					height: 100%;
 					padding-bottom: 56.25%;
@@ -3257,17 +3257,25 @@ input, select, textarea {
 
 			@media screen and (max-width: 767px) {
 
-				.wrapper > .inner > .iframe {
+				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
 					width: 100%;
 					height : 100;
 				}
 
 			}
-
+		
+		.wrapper.inner iframe{
+ 			 position: absolute;
+  	         	 width: 100%;
+			 height: 100%;
+  			 top: 0;
+  			 left: 0;
+			}
 		.wrapper.alt {
 			background-color: #261c3e;
 		}
+		
 
 		.wrapper.style1 {
 			background-color: #532eaf;
