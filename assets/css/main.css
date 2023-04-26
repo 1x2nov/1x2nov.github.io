@@ -3248,13 +3248,14 @@ input, select, textarea {
 				}
 
 			} 
-				.wrapper > .inner  iframe {
-					width: 850px;
-					height: 380px;
-				}
-
-			}
-
+				.inner iframe{
+			
+				position: absolute;
+  		width: 100%;
+  		height: 100%;
+		  top: 0;
+		  left: 0;
+		}
 			@media screen and (max-width: 767px) {
 
 				.wrapper > .inner {
