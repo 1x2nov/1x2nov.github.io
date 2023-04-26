@@ -3238,12 +3238,11 @@ input, select, textarea {
 		}
 
 			
-			@media screen and (min-width: 1024px) {
+			@media screen and (max-width: 1024px) {
 
 				.wrapper > .inner {
 					width: 100%;
 					height: 100%;
-					padding-bottom: 56.25%;
 
 				}
 
@@ -3254,7 +3253,7 @@ input, select, textarea {
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
 					width: 100%;
-					height : 100;
+					height : 100%;
 				}
 
 			}
